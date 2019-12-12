@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Viktor Sandvik - Registrering</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/9272ac0a4d.js"></script>
+    <link rel="stylesheet" href="../custom.css">
+</head>
+
+<body>
+    <div id="wrapper" class="vh-100 w-100">
+
+        <div id="main-content" class="d-flex h-100 w-100">
+
+            <!-- Top row -->
+            <nav class="navbar navbar-dark bg-transparent">
+                <div id="logo"><img src="../icons8-espresso-cup-64.png">
+                    <span>Login</span>
+                </div>
+                <div class="top-right-corner d-flex">
+                    <span id="sign-in" class="hideForm"><a href="#">Sign
+                            In</a></span>
+                    <span id="sign-up"><a href="../Registration/registrate.html">Sign Up</a></span>
+                </div>
+            </nav>
+
+            <!-- Right / Showcase Section -->
+            <section id="showcase" class="container">
+                <div class="brand">
+                    <h1 id="main-title">formDem<span id="logo"><img src="../icons8-espresso-cup-64.png" alt=""></span>
+                    </h1>
+                </div>
+            </section>
+
+            <!-- Left / Form Section -->
+            <section id="loginSection" class="formSlideIn col-12 col-md-6 col-lg-4">
+                <!-- <h3 class="welcome-title">Welcome</h3> -->
+                <form id="loginForm" class="d-flex">
+
+                    <!-- Email -->
+                    <div class="form-row mt-4">
+                        <div class="form-group col-sm-12 col-md-12">
+                            <label for="email">E-mail Adress:</label>
+                            <input id="email" type="text" class="form-control" autocomplete="off">
+                            <span class="invalid-feedback email-message"></span>
+                        </div>
+                        <div class="form-group col-sm-12 col-md-12">
+                            <label for="password">Password:</label>
+                            <input type="password" id="password" class="form-control" autocomplete="off">
+                            <span class="invalid-feedback pw-message"></span>
+                        </div>
+                    </div>
+
+                    <!-- Login button -->
+                    <div class="form-row">
+                        <div class="d-flex col-12 justify-content-between align-items-center mt-3">
+                            <button type="submit" id="btnLogin" class="btn btn-outline-light col-2">Login</button>
+                            <span class="submit-message">Need a new account?<a class="submit-link d-block" href="../Registration/registrate.html">Sign up</a></span>
+                        </div>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="../script.js"></script>
+</body>
+
+</html>

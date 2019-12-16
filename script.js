@@ -114,7 +114,7 @@ $(function() {
     ) {
       submitMessage.text("Check your email to confirm your account!");
       setTimeout(() => {
-        document.location.href = "../Login/login.html";
+        document.location.href = "Login/login.html";
       }, 3000);
       return true;
     } else {
@@ -130,7 +130,7 @@ $(function() {
     if (validateEmail("#email") && validatePassword("#password")) {
       submitMessage.text("You're now logged in!");
       setTimeout(() => {
-        document.location.href = "../Login/inlogged.html";
+        document.location.href = "inlogged.html";
       }, 3000);
     } else {
       submitMessage.text("Couldn't find email or password.");
